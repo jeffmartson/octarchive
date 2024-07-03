@@ -14,7 +14,7 @@ RUN mkdir -p /out
 RUN cp out/octarchive /out/octarchive
 
 # Release container
-FROM debian:bookworm
+FROM debian:12.6
 
 # Add certificates
 RUN apt update
